@@ -28,7 +28,7 @@ def contact(request):
         'app/contact.html',
         context_instance = RequestContext(request,
         {
-            'title':'Contact',
+            'title':'Contato Phoenix',
             'message':'Your contact page.',
             'year':datetime.now().year,
         })
